@@ -1,21 +1,6 @@
 <template>
   <div id="app">
     <div class="center examplex">
-      <vs-navbar center-collapsed v-model="active">
-        <template #left>
-          <img class="brand" src="./assets/logo.png" alt="" />
-        </template>
-        <vs-navbar-item id="home">
-          <router-link to="/">Home</router-link>
-        </vs-navbar-item>
-        <vs-navbar-item id="about">
-          <router-link to="/about">About</router-link>
-        </vs-navbar-item>
-        <template #right>
-          <vs-button flat>Login</vs-button>
-          <vs-button>Get Started</vs-button>
-        </template>
-      </vs-navbar>
       <div class="square">
         <router-view />
       </div>
